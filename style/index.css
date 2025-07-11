@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f6fa;
+  color: #111;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header {
+  padding: 20px 0;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  color: #3366ff;
+}
+
+.btn {
+  background: #3366ff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: inline-block;
+}
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+.hero span {
+  color: #3366ff;
+}
+body { 
+  background-image: url('../style/Assets/Hero-bg.png');
+  background-size: 1440px 652px;
+}
+
+  
