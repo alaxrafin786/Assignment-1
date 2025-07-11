@@ -57,7 +57,7 @@ a {
 .hero span {
   color: #3366ff;
 }
-#A { 
+.A { 
   background-size: 1440px 652px;
   background-image: url('../style/Assets/Hero-bg.png');
   background-repeat:repeat; 
@@ -83,5 +83,122 @@ a {
   font-size: 32px;
   color: #3366ff;
 }
+.stats-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+  background-color: #f5f6fa;
+}
 
-  
+.stats-box {
+  background-color: #e8ebff;
+  border-radius: 20px;
+  padding: 40px 30px;
+  max-width: 1000px;
+  width: 100%;
+  text-align: center;
+}
+
+.stats-heading {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #1d1d1f;
+  margin-bottom: 30px;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.stat {
+  flex: 1;
+}
+
+.stat h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4c4cff;
+  margin-bottom: 8px;
+}
+
+.stat p {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0;
+}
+
+.reviews-section {
+  padding: 60px 20px;
+  background-color: #f5f6fa;
+  text-align: center;
+}
+
+.reviews-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #1d1d1f;
+  margin-bottom: 40px;
+}
+
+.reviews-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.review-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  padding: 24px;
+  max-width: 300px;
+  flex: 1;
+  min-width: 250px;
+  text-align: left;
+}
+
+.stars {
+  font-size: 1.2rem;
+  color: #fbbc04; /* Yellow stars */
+  margin-bottom: 10px;
+}
+
+.review-card h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.review-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.review-footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.reviewer-name {
+  font-weight: 500;
+  margin: 0;
+}
+
+.review-date {
+  font-size: 0.8rem;
+  color: gray;
+  margin: 0;
+}
