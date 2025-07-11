@@ -60,7 +60,7 @@ a {
 #A { 
   background-size: 1440px 652px;
   background-image: url('../style/Assets/Hero-bg.png');
-  background-repeat:; 
+  background-repeat:repeat; 
   background-color: #f5f6fa; 
   padding: 100px 20px;
   text-align:start;
