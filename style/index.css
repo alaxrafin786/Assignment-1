@@ -202,3 +202,43 @@ a {
   color: gray;
   margin: 0;
 }
+.focus-section {
+  background-color: #f5f7ff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.focus-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.focus-content h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1d1d1f;
+  margin-bottom: 10px;
+}
+
+.subtext {
+  color: #7d7d7d;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.cta-btn {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.focus-image {
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
