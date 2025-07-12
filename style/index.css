@@ -290,3 +290,42 @@ a {
     font-size: 16px;
     cursor: pointer;
   }
+
+  .footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  .footer .logo {
+    font-size: 48px;
+    font-weight: 800;
+    color: #4d4dff;
+    margin-bottom: 16px;
+  }
+
+  .footer .description {
+    font-size: 16px;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+  }
+
+  .footer .nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 15px;
+    color: #666;
+  }
+
+  .footer .nav-links a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .footer .nav-links a:hover {
+    color: #4d4dff;
+  }
+
+  
