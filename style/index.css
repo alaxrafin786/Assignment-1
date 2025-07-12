@@ -242,3 +242,51 @@ a {
   border-radius: 20px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px 100px;
+    background-color: #f0f4ff;
+  }
+
+  .left-text {
+    width: 50%;
+  }
+
+  .left-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+    color: #000;
+  }
+
+  .contact-form {
+    width: 50%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+
+  .contact-form textarea {
+    height: 100px;
+    resize: none;
+  }
+
+  .contact-form button {
+    background-color: #4d4dff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+  }
